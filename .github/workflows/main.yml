@@ -8,3 +8,4 @@
         runs-on: ubuntu-latest
         steps:
           - uses: actions/checkout@v2
+            args: pytest -v
